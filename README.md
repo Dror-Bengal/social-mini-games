@@ -13,7 +13,7 @@ A 60-second tap game built for a phone screen. Each hit earns a point and makes 
 
 ## Play
 
-Clone the private repository and run the game with Python 3:
+Clone the repository and run the game with Python 3:
 
 ```sh
 git clone https://github.com/Dror-Bengal/social-mini-games.git
@@ -41,3 +41,7 @@ python tests/play_round.py
 ```
 
 The two commands exercise touch input and mouse input respectively. Each plays a full round in real time, scores twenty hits using the rendered controls, checks that every milestone pauses the timer, verifies the final score at zero seconds, and scores again after restarting. To save fresh mobile previews, add `--capture docs` to the touch command. To test with installed Chrome, set `BROWSER_CHANNEL=chrome`.
+
+## License
+
+Nayto’s code is distributed under the [MIT License](LICENSE). Third-party software and media retain their respective terms.
