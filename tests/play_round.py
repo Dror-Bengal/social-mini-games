@@ -67,6 +67,8 @@ def play(url, touch, captures):
         press(page.locator(".hole:has(.mole.active)").first)
         expect(page.locator("#score")).to_have_text("1")
         assert not errors, errors
+        print("Verified the final score, replay and first hit of the next round.", flush=True)
+        context.close()
         browser.close()
 
 
